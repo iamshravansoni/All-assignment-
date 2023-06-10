@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>9Q</title>
+    <style>
+        input[type="text"]{
+            color: #0000ff;
+        }
+        textarea{
+            color: #8a2be2;
+        }
+        
+        input[type="date"]{
+            color: #deb887;
+        }
+        input[type="email"]{
+            color: #5f9ea0;
+        }
+        input[type="number"]{
+            color: #7fff00;
+        }
+        input[type="submit"]{
+            color: #006400;
+        }
+        input[type="reset"]{
+            color:#696969;
+        }
+    </style>
+</head>
+<body>
+    <form name="users">
+        <fieldset  >
+            <legend><h2>Fill This Form For Admission!!</h2></legend>
+            <label for="name"  >Please insert your name:</label>
+            <input type="text" id="name" name="usersname" placeholder="Enter Your Name" required autocapitalize="">
+            <br>
+            <br>
+            <input type="file" accept=".jpg" required  >
+            <br>
+            <br>
+            <label for="address">Enter Your Address</label>
+            <textarea name="usersaddress" id="address" cols="30" rows="10" placeholder="Enter Your Address" required  ></textarea>
+            <br>
+            <label for="dob">Date Of Birth</label>
+            <input type="date" name="usersdob" id="dob" placeholder="Date Of Birth" required >
+            <br>
+            <br>
+            <label for="emailid">Enter your email-id:</label>
+            <input type="email" name="usersemailid" id="emailid" placeholder="Enter your email-id">
+            <br>
+            <br>
+            <label for="phone number">Enter Your Phone Number :</label>
+            <input type="number" name="usersphonenumber" id="phone number" placeholder="Enter Your Phone Number" min="10" required >
+            <br>
+            <input type="submit" value="SUBMIT" name="submit" id="submit">
+            <input type="reset" value="RESET" name="reset" id="reset">  
+</body>
+</html>

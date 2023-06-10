@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6Q</title>
+    <link rel="shortcut icon" href="IMG_20230514_140910.jpg" type="image/x-icon">
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+
+        body{
+            background-color: #f0ffff;
+        }
+
+        fieldset{
+            font-size: 26px;
+            color: #49143f;
+        }
+
+        input:focus{
+            background-color:#d3e90a;
+        }
+    </style>
+</head>
+<body>
+    <form name="users">
+        <fieldset  >
+            <legend><h2>Fill This Form For Admission!!</h2></legend>
+            <label for="name"  >Please insert your name:</label>
+            <input type="text" id="name" name="usersname" placeholder="Enter Your Name" required autocapitalize="">
+            <br>
+           
+            <label for="address">Enter Your Address</label>
+            <textarea name="usersaddress" id="address" cols="30" rows="10" placeholder="Enter Your Address" required  ></textarea>
+            <br>
+            <br>
+            Select your gender: <br>
+            <label for="male" >male</label>
+            <input type="radio" id="male" name="gender">
+            <br>
+            <label for="female">female</label>
+            <input type="radio" name="gender" id="female">
+            <br>
+            <label for="transgender">transgender</label>
+            <input type="radio" id="transgender" name="gender">
+            <br> 
+            <br>
+            <label for="dob">Date Of Birth</label>
+            <input type="date" name="usersdob" id="dob" placeholder="Date Of Birth" required >
+            <br>
+            <br>
+            <label for="emailid">Enter your email-id:</label>
+            <input type="email" name="usersemailid" id="emailid" placeholder="Enter your email-id">
+            <br>
+            <input type="submit" value="SUBMIT" name="submit" id="submit">
+</body>
+</html>
