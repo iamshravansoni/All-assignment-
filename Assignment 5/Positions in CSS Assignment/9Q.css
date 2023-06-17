@@ -1,0 +1,27 @@
+button  {
+    background-color: #da3333;
+    color: #000000;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.options {
+    border: 1px solid #87ceeb;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    max-height: 100px;
+    width: 15%;
+    margin-left: 10px;
+    opacity: 0;
+}
+
+.option {
+    padding: 8px 5px;
+    border: 1px dotted aliceblue;
+}
+
+button:hover + .options {
+    opacity: 1;
+}

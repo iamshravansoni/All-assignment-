@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #242b2e;
+}
+/* side-bar decoraton */
+.side-bar {
+    background-color: #242b2e;
+    height: 100%;
+    width: 15%;
+    float: left;
+    
+}
+
+.side-logo .logo {
+    width: 100%;
+}
+    
+
+ .nav-items-list .nav-item {
+    background-color: #242b2e;
+    border: 2px dashed #0d1011;
+    padding: 10px 5px 10px 10px;
+    font-size: 20px
+}
+
+ .nav-items-list .nav-item .nav-link {
+    display: contents;
+    color: #f0ffff;
+}
+
+/* main-bar decoration */
+.main-bar {
+    background-color: #1f1f1f;
+    height: 100%;
+    width: 85%;
+    float: right;
+} 
+
+
+
+.image .pw-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #5a4bda;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+p {
+  text-align: center;
+  color: #f0ffff;
+  font-size: 18px;
+  width: 75%;  
+  margin: 0 auto;
+}
+
+/* Chatbox */
+.chat-box {
+    position: fixed;
+    left: 92%;
+    top: 90%;
+    cursor: pointer;
+}

@@ -1,0 +1,20 @@
+.symbol {    
+    font-size: 20px;
+    padding: 0px 20px;
+  }
+
+  .alert-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    height: 40px;
+    width: 95%;
+    background-color: #f8bfbf;
+    border-radius: 88px;
+    border-left: 5px solid #ef4444;       
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ef4444;
+    position: fixed;
+    top: 0;
+  }

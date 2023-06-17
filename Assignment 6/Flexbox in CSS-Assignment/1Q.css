@@ -1,0 +1,11 @@
+.images {
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: stretch;
+}
+
+.image {
+    margin: 5px 10px;
+    border: 1px dashed blueviolet;
+}

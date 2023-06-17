@@ -1,0 +1,29 @@
+body {
+    background-color:#242b2e ;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 170px;
+}
+
+.search-bar {
+    display: flex;
+    border: 1px solid #000000;
+    border-radius: 50px;
+    width: 50%;
+    margin-top: 20px;
+}
+
+input {
+    height: auto;
+    width: 80%;
+    outline: none;
+    color: #ffffff;
+    font-size: 25px;
+    background:#242b2e ;
+    border: 0px;
+}

@@ -1,0 +1,27 @@
+.container {
+    margin-top: 20%;
+    margin-left: 40%;
+    position: relative;
+}
+
+.small-box {
+    background-color: #012201;
+    color: #f0ffff;
+    position: absolute;
+    left: 190px;
+    bottom: 70px;
+    border-radius: 6px;
+    padding: 10px 30px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.big-box {
+    background-color: #ff0000;
+    color: #000000;
+    position: static;
+    border-radius: 6px;
+    padding:20px 55px ;
+    font-size: 40px;
+    cursor: pointer;
+}

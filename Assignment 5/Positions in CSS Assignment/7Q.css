@@ -1,0 +1,35 @@
+.container {
+    position: relative;
+}
+
+.Card {
+    width: 250px;
+    height: 350px;
+    text-align: center;
+    border-radius: 10px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.Card:hover {
+    z-index: 1;
+}
+
+
+.first {
+    background-color: blueviolet;
+    top: 25px;
+    left: 15px;
+}
+
+.second{
+    background-color: #ff4500;
+    top: 90px;
+    left: 30px;
+}
+
+.third{
+    background-color: #008000;
+    top: 150px;
+    left: 50px;
+}
