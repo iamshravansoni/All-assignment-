@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav{
+    background-color: #0a110a;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: center;
+    height: 24%;
+}
+
+
+.logo {
+    width: 5%;
+    padding-left: 25px;
+}
+
+nav .big-menu {
+    display: flex;
+    gap: 40px;            
+}
+
+ul li {
+    list-style: none;           
+}
+
+li a {
+    color: #ffff;
+    text-decoration: none;
+    font-size: 25px;            
+}
+
+.login-btn {
+    padding: 10px 24px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: #8a2be2;
+    color: #ffff;
+    font-weight: bold;
+}
+
+.hamburger-menu {
+    display: none;
+    padding: 3px;
+    width: 3%;          
+}
+
+.line {
+    width: 100%;
+    border-radius: 4px;
+    height: 4px;
+    background-color: #fff;
+    margin: 5px 0;
+}
+     /* main section styling */
+    section {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .float-left {
+        max-width:  58%;
+        margin-top: 9%;
+        margin-left: 2%;
+    }
+
+    .float-right {
+        max-width: 40%;
+        margin-top: 5%;
+    }
+
+    img {
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 45px;
+        color: #8a2be2;
+    }
+
+    .sponsers-card {
+        font-size: 23px;
+        color: #8a2be2;
+        margin-bottom: 10px;
+    }
+
+    p {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+     /*styling for small device  */
+     @media screen and (max-width: 576px) {
+    
+    /*navigation bar styling for small device */    
+    nav {
+        padding: 10px 20px;
+        width: 100%;
+    }
+
+    nav .big-menu,nav .login {
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: block;
+        width: 10%;  
+    }
+
+    nav .logo {
+        width: 13%;
+    }
+
+    /* main section styling for small device */
+    section {
+        flex-direction: column;
+        overflow: scroll;
+    }
+
+    .float-left , .float-right {           
+        width: 100%;
+        margin-top: 20%;
+    }
+}      

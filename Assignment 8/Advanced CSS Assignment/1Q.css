@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .demo-page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(#52a1e2, #361386);
+    color: #f0ffff;
+  }
+  
+    h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+  }
+
+    p {
+        font-size: 20px;    }

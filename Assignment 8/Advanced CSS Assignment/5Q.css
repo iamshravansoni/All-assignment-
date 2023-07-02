@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .img {
+    border: 2px solid #000000f6;
+  }
+  
+  .img img {
+    filter: blur(40px);  
+    object-fit: cover;
+    margin-top: 20px;
+  }
+  
+  .img img:hover {
+    filter: blur(0px);
+  }

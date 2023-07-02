@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    padding: 1% 5%;
+    width: 95%;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 2%;
+    text-align: center;
+    border-radius: 10px;
+    background: linear-gradient(to left, #760dbd, #aa69bb 80%);
+    color: #f0ffff;
+  }
